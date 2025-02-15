@@ -25,14 +25,9 @@ cd YogiBear
 ```
 
 ### 2. Compile & Run
-If this project is in **Java**:
 ```bash
 javac -d bin src/*.java
 java -cp bin Main
-```
-*(Adjust the paths and filenames as necessary.)*
-
-If it’s a **Python** project (or any other language), follow the usual process for that language (e.g., `python main.py`).
 
 ---
 
@@ -147,10 +142,6 @@ Contributions are welcome!
 4. **Push to your branch**: `git push origin feature-name`.  
 5. **Open a Pull Request** on GitHub.
 
----
-
-## 📜 License
-This project is released under the [MIT License](./LICENSE).
 
 ---
 
