@@ -29,6 +29,9 @@ If this project is in **Java**:
 ```bash
 javac -d bin src/*.java
 java -cp bin Main
+```
+*(Adjust the paths and filenames as necessary.)*
+
 ---
 
 ## 🎮 Game Controls
@@ -45,8 +48,8 @@ java -cp bin Main
 ## 🛠 Game Architecture
 This game uses the **Model-View-Controller (MVC)** pattern:
 
-1. **Model:** Manages the game state (Yogi, Rangers, Obstacles, Baskets).
-2. **View:** Graphical interface and rendering.
+1. **Model:** Manages the game state (Yogi, Rangers, Obstacles, Baskets).  
+2. **View:** Graphical interface and rendering.  
 3. **Controller:** Processes user input, updates the model, and refreshes the view.
 
 ### Key Classes
@@ -70,12 +73,12 @@ This game uses the **Model-View-Controller (MVC)** pattern:
 ---
 
 ## ✅ Features & Mechanics
-- **Real-time Ranger AI Movement**
-- **Collision Detection:** Yogi vs. rangers, baskets, and obstacles
-- **Level Progression:** Automatic loading of new levels when baskets are fully collected
-- **High-Score System:** Stores player names and scores
-- **User-Friendly UI:** Simple menus, status bars, and input controls
-- **Smooth Animations:** Updates at regular intervals
+- **Real-time Ranger AI Movement**  
+- **Collision Detection:** Yogi vs. rangers, baskets, and obstacles  
+- **Level Progression:** Automatic loading of new levels when baskets are fully collected  
+- **High-Score System:** Stores player names and scores  
+- **User-Friendly UI:** Simple menus, status bars, and input controls  
+- **Smooth Animations:** Updates at regular intervals  
 
 ---
 
@@ -143,7 +146,6 @@ Contributions are welcome!
 5. **Open a Pull Request** on GitHub.
 
 ---
-
 
 ## 📧 Contact
 - **Author:** Abdul Basit  
