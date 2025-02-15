@@ -1,79 +1,33 @@
-# ===================================
-#  Maven / Gradle build directories
-# ===================================
+# Build directories
 /target/
 /build/
-/out/
 
-# Allow Maven Wrapper JAR but ignore other .mvn folder contents
-.mvn/
-!.mvn/wrapper/maven-wrapper.jar
+# IntelliJ IDEA
+/.idea/
+/*.iml
 
-# ===================================
-#  Eclipse IDE files
-# ===================================
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings/
-.springBeans
-.sts4-cache
+# Eclipse
+/.settings/
+/.classpath
+/.project
 
-# ===================================
-#  IntelliJ IDEA files
-# ===================================
-*.iws
-*.iml
-*.ipr
-.idea/
-# Sometimes .idea/libraries is important for shared library definitions,
-# but often it’s okay to ignore.
-.idea/libraries/
-
-# ===================================
-#  NetBeans files
-# ===================================
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
 
-# ===================================
-#  Visual Studio Code
-# ===================================
-.vscode/
+# VS Code
+/.vscode/
 
-# ===================================
-#  OS-Specific files
-# ===================================
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
 
-# ===================================
-#  Log files
-# ===================================
+# Logs
 *.log
 
-# ===================================
-#  Other general ignores
-# ===================================
-*.class
-*.jar
-*.war
-*.ear
-
-# ===================================
-#  If you have coverage or test reports
-# ===================================
-/coverage/
-/test-output/
-
-# ===================================
-#  If you have environment or secret files
-# ===================================
-.env
-*.env
-*.key
-
+# Temporary files
+*.tmp
