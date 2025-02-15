@@ -1,0 +1,10 @@
+O,Tree,150,50
+O,Tree,250,300
+O,Mountain,350,150
+O,Mountain,450,450
+B,300,300
+B,500,100
+B,100,500
+R,400,400,Horizontal
+R,200,500,Vertical
+R,600,300,Horizontal
